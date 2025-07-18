@@ -109,3 +109,10 @@ button{
 button + p>a{
     color: #596D48;
 }
+#error{
+    font-size: small;
+    color: white;
+    background-color: #900;
+    border-radius: 5px 5px 5px 5px;
+    box-sizing: border-box;
+}
