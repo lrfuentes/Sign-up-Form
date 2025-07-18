@@ -50,9 +50,62 @@ body{
 .right-section{
     width: 60%;
     background-color: #F9FAFB;
-    padding-left: 5%;
-    padding-right: 20%;
+}
+.right-section h2,
+.right-section button,
+.right-section p{
+    margin-left: 5%;
+}
+.right-section h2{
+    margin-right: 20%;
 }
 .form-groups-container{
     background-color: #FFFFFF;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 20px;
+    box-shadow: 0 3px #DDDEDE;
+}
+.form-groups-container .form-controls{
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    margin-left: 5%;
+}
+.form-controls .form-control{
+    display: inline-block;
+    width: 49%;
+    margin-top: 12px;
+}
+form>h2:first-child{
+    margin-top: 100px;
+}
+input{
+    border-radius: 4px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    width: 80%;
+    border: 1px solid #E5E7EB;
+}
+label{
+    display: block;
+    font-size: small;
+}
+.form-control input:focus{
+    border-color: blue;
+    box-shadow: 4px 4px #DDDEDE;
+}
+input:invalid{
+    border-color: red;
+}
+button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #596D48;
+    border: none;
+    color: #FFFFFF;
+}
+button + p>a{
+    color: #596D48;
 }
